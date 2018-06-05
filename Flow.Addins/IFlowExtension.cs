@@ -10,8 +10,8 @@ namespace Flow.Extensions
 {
     public interface IFlowExtension
     {
-        ICommand command { get; }
-        IVisualDesign design { get; }
+        ICommand Command { get; }
+        IVisualDesign Design { get; }
 
     }
 }
